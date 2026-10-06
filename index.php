@@ -33,7 +33,6 @@
     $sudahSoldOut = false; 
     $kategoriTiket = "Festival";
 
-    // contoh ambil konser pertama (buat logic tambahan)
     $hargaAsli = $daftarKonser[0]["harga"];
     $persenDiskon = 20;
     $hargaSetelahDiskon = $hargaAsli - ($hargaAsli * $persenDiskon / 100);
